@@ -11,8 +11,8 @@
     height: 600px;
     background: linear-gradient(
         to bottom,
-        rgba(78, 33, 204, 0.822),
-        rgba(47, 29, 214, 0.6),
+        rgba(189, 255, 7, 0.822),
+        rgba(214, 165, 29, 0.6),
         rgba(7, 109, 150, 0.45)
       ),
       url(img/fondo2.jpg);
@@ -129,8 +129,8 @@
     background: linear-gradient(
         to bottom,
         rgba(255, 255, 255, 0.822),
-        rgba(47, 29, 214, 0.6),
-        rgba(7, 109, 150, 0.45)
+        rgba(167, 204, 3, 0.6),
+        rgba(161, 189, 3, 0.45)
       ),
       url(img/fondo2.jpg);
     background-attachment: fixed;
@@ -202,14 +202,14 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: rgb(196, 226, 26);
+    color: rgb(236, 236, 231);
     overflow: hidden;
     text-align: center;
     border-radius: 2cm;
-  border-color: aqua;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-color: rgb(192, 199, 199);
+  text-shadow: 2px 2px 2px rgb(238, 224, 224);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  -webkit-text-stroke: 2px rgb(179, 174, 174);
   
   }
   
@@ -405,7 +405,7 @@
   
   @media screen and (max-width: 700px) {
     .nav2 {
-      color: rgb(83, 14, 247);
+      color: rgb(197, 247, 14);
     }
   
     .icono {
