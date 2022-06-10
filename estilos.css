@@ -1,8 +1,8 @@
 :root {
   --color1: rgb(255, 255, 255);
-  --color2: rgba(30, 164, 197, 0.877);
-  --color3: rgba(11, 194, 211, 0.623);
-  --fondo: #2613d3;
+  --color2: rgba(28, 198, 240, 0.877);
+  --color3: rgba(13, 221, 240, 0.623);
+  --fondo: #16a4f0fc;
   --titulos: 33px;
   --margenes: 60px;
   --espacios: 10px;
@@ -39,8 +39,9 @@
 .menuCSS3 {
   right: -800px;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.448);
+  background-color: rgba(35, 84, 198, 0.847);
   border-radius: 3px;
+  top: 20px;
 }
 
 body {
@@ -117,7 +118,7 @@ header {
   width: 100%;
   height: 600px;
   background-color: #00ded3;
-  background-image: linear-gradient(180deg, #00ded3 0%, #fc00ff 100%);
+  background-image: linear-gradient(180deg, #22c1f6e2 0%, #fb00ffdf 100%),url(img/tec.png);
 
   background-attachment: fixed;
   background-position: center;
@@ -127,19 +128,19 @@ header {
 nav {
   width: 100%;
   position: fixed;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.985);
 }
 
 .nav1 {
-  background: transparent;
-  height: 80px;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.378);
+  height: 90px;
+  color: rgb(255, 255, 255);
 }
 
 .nav2 {
   background: var(--fondo);
   height: 100px;
-  color: #000;
+  color: rgb(230, 224, 224);
 }
 
 .contenedor-nav {
@@ -359,7 +360,7 @@ nav .enlaces a:hover {
 /* Footer */
 
 footer {
-  background: url(img/teclado.jpg);
+  background-image: url(img/white-keyboard-.jpg);
 }
 
 .marca-logo {
@@ -400,7 +401,7 @@ footer p {
   .enlaces {
     position: fixed;
     top: 80px;
-    background: #2c3e50;
+    background: #0765c4;
     left: 0;
     height: 100%;
     transition: 1s;
